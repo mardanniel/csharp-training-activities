@@ -1,0 +1,15 @@
+C:\Users\Trainee\source\repos\ActivityThree\bin\Debug\net6.0\ActivityThree.exe
+C:\Users\Trainee\source\repos\ActivityThree\bin\Debug\net6.0\ActivityThree.deps.json
+C:\Users\Trainee\source\repos\ActivityThree\bin\Debug\net6.0\ActivityThree.runtimeconfig.json
+C:\Users\Trainee\source\repos\ActivityThree\bin\Debug\net6.0\ActivityThree.dll
+C:\Users\Trainee\source\repos\ActivityThree\bin\Debug\net6.0\ActivityThree.pdb
+C:\Users\Trainee\source\repos\ActivityThree\obj\Debug\net6.0\ActivityThree.csproj.AssemblyReference.cache
+C:\Users\Trainee\source\repos\ActivityThree\obj\Debug\net6.0\ActivityThree.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Trainee\source\repos\ActivityThree\obj\Debug\net6.0\ActivityThree.AssemblyInfoInputs.cache
+C:\Users\Trainee\source\repos\ActivityThree\obj\Debug\net6.0\ActivityThree.AssemblyInfo.cs
+C:\Users\Trainee\source\repos\ActivityThree\obj\Debug\net6.0\ActivityThree.csproj.CoreCompileInputs.cache
+C:\Users\Trainee\source\repos\ActivityThree\obj\Debug\net6.0\ActivityThree.dll
+C:\Users\Trainee\source\repos\ActivityThree\obj\Debug\net6.0\refint\ActivityThree.dll
+C:\Users\Trainee\source\repos\ActivityThree\obj\Debug\net6.0\ActivityThree.pdb
+C:\Users\Trainee\source\repos\ActivityThree\obj\Debug\net6.0\ActivityThree.genruntimeconfig.cache
+C:\Users\Trainee\source\repos\ActivityThree\obj\Debug\net6.0\ref\ActivityThree.dll
