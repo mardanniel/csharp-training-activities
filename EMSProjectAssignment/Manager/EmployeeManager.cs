@@ -58,14 +58,14 @@
         {
             Employee employee = this.employees.Find((emp) => emp.Id == employeeId);
             Console.WriteLine($"ID \tName \t\tDepartment \tSalary");
-            Console.WriteLine($"{employee.Id} \t{employee.FirstName} {employee.LastName} \t{employee.Department} \t{employee.Salary}");
+            Console.WriteLine($"{employee.Id} \t{employee.FirstName} {employee.LastName} \t{employee.Department.Name} \t{employee.Salary}");
         }
 
         public void Update(int employeeId)
         {
             Employee employee = this.employees.Find((emp) => emp.Id == employeeId);
             Console.WriteLine($"Employee with ID number {employeeId}");
-            Console.WriteLine($"{employee.Id} \t{employee.FirstName} {employee.LastName} \t{employee.Department} \t{employee.Salary}");
+            Console.WriteLine($"{employee.Id} \t{employee.FirstName} {employee.LastName} \t{employee.Department.Name} \t{employee.Salary}");
         }
 
         public void Delete(int employeeId)
