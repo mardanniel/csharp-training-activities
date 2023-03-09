@@ -24,6 +24,7 @@ namespace EMSProjectAssignment
 
     class Program
     {
+
         static void Main(string[] args)
         {
             EmployeeManager employeeManager = new EmployeeManager();
@@ -33,8 +34,17 @@ namespace EMSProjectAssignment
 
             while (input != 0)
             {
-                Console.WriteLine("Operations: [1] Add [2] Update [3] Delete [4] Search by ID [5] List All [0] Exit");
-                input = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("\nOperations: [1] Add [2] Update [3] Delete [4] Search by ID [5] View [0] Exit");
+
+                try
+                {
+                    input = Convert.ToInt32(Console.ReadLine());
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Invalid input, out of bounds. Please try again.");
+                }
+
                 Console.Clear();
 
                 switch(input)
@@ -53,10 +63,10 @@ namespace EMSProjectAssignment
                         employeeManager.FindViaUserInput();
                         break;
                     case 5:
-                        employeeManager.List();
+                        employeeManager.ViewOptions();
                         break;
                     default:
-                        Console.WriteLine("Invalid input. Please try again.");
+                        Console.WriteLine("Invalid input, out of bounds. Please try again.");
                         break;
                 }
             }
