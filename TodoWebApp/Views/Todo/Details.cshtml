@@ -1,0 +1,27 @@
+@model Todo
+
+@*
+*@
+@{
+}
+
+<h1>View Todo Details</h1>
+
+<table class="table table-success table-striped">
+    <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Status</th>
+        <th>Due Date</th>
+    </tr>
+    <tr>
+        <td>@Model.Id</td>
+        <td>@Model.Title</td>
+        <td>@Model.Description</td>
+        <td>@Model.Status</td>
+        <td>@Model.DueDate</td>
+    </tr>
+</table>
+
+<a asp-controller="Todo" asp-action="GetAllTodos">Back to Todo List</a>

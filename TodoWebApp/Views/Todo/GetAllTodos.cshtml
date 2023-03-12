@@ -1,0 +1,33 @@
+﻿@model List<Todo>
+
+@*
+*@
+@{
+}
+
+<h1>Todo List</h1>
+<a href="add" class="btn btn-success my-2">Add Todo</a>
+
+<table class="table table-success table-striped">
+    <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Status</th>
+        <th>Due Date</th>
+        <th>Actions</th>
+    </tr>
+    @foreach(Todo todo in Model){
+    <tr>
+        <td>@todo.Id</td>
+        <td>@todo.Title</td>
+        <td>@todo.Description</td>
+        <td>@todo.Status</td>
+        <td>@todo.DueDate</td>
+        <td>
+            <a asp-controller="Todo" asp-action="Details" asp-route-todoId=@todo.Id class="btn btn-success">View</a>
+            <a asp-controller="Todo" asp-action="Delete" asp-route-todoId=@todo.Id class="btn btn-danger">Delete</a>
+        </td>
+    </tr>
+    }
+</table>
