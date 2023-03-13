@@ -1,0 +1,19 @@
+@* @model Todo; *@
+@model SomeActionViewModel;
+
+<h1>Hello @ViewData["Name"] - ViewData Example</h1>
+<h2>Hello @ViewBag.Something - ViewBag Example</h2>
+@* <h3>Hello @Model.Title - Strongly type Example</h3> *@
+<h4>Hello @Model.todo.Title - ViewModel example</h4>
+
+@{
+  var a = 10;
+  var b = 69;
+  var c = a + b;
+  var email = "something@gmail.com";
+}
+
+<p>Variable @@a is equal to @a</p>
+<p>Variable @@b is equal to @b</p>
+<p>Sum is @c</p>
+<p>email @email</p>
